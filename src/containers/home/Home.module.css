@@ -1,0 +1,31 @@
+.Container {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Container div {
+    height: 300px;
+}
+
+.ColumnLeft {
+    width: 25%;
+    left: 0;
+    background: #00F;
+    position: absolute;
+    top: 56px;
+}
+.ColumnCenter {
+    width: 42%;
+    /* background: #933; */
+    margin-left: 29%;
+    position: absolute;
+    top: 56px;
+}
+.ColumnRight {
+    width: 25%;
+    right: 0;
+    position: absolute;
+    background: #999;
+    top: 56px;
+}

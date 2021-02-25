@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sofia&display=swap'); */
+
+.Logging {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.Logging img {
+    width: 150px;
+}
+
+.Logging h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.Error {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #944317;
+}
+
+@media (min-width: 600px){
+    .Logging {
+        width: 500px;
+    }
+}

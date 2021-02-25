@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sofia&display=swap'); */
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    border: 1px solid #5C9210;
+    color: #5C9210;
+    width: 150px;
+    padding: 7px;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.Danger {
+    border: 1px solid #944317;
+    color: #944317;
+    width: 150px;
+    padding: 7px;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.Default {
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    padding: 7px;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
