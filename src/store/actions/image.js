@@ -52,11 +52,9 @@ export const postImage = (data, token, tokenType) => {
         };
         axios.post(url, data, {headers: headers})
         .then(response => {
-            console.log(response);
             dispatch(postImageSuccess());
         })
         .catch(error => {
-            console.log(error);
             dispatch(postImageFail());
         });
     }
@@ -82,7 +80,6 @@ export const getImage = (token, tokenType) => {
             }
         })
         .catch(error => {
-            console.log(error);
             dispatch(getImageFail());
         })
     }

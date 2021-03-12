@@ -4,9 +4,6 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.Container div {
-    height: 300px;
-}
 
 .ColumnLeft {
     width: 25%;

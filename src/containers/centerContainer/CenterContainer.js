@@ -5,13 +5,12 @@ import {connect} from 'react-redux';
 const CenterContainer = (props) => {
 
     let inner = 'Center Column';
-    console.log(typeof props.content);
     if (props.content && props.content === 'profile'){
         inner = <Profile/>
     }
 
     return(
-        <div>
+        <div style={{width: "auto"}}>
             {inner}
         </div>
     )

@@ -13,7 +13,8 @@ export {
 } from './centerContainer.js';
 
 export {
-    getProfile
+    getProfileInfo,
+    getProfileBooks
 } from './profile.js';
 
 export {

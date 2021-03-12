@@ -5,7 +5,8 @@ const initialState = {
     error: false,
     loading: false,
     token: '',
-    tokenType: ''
+    tokenType: '',
+    userId: ''
 }
 
 const authStart = (state, action) => {
@@ -14,7 +15,8 @@ const authStart = (state, action) => {
         error: false,
         loading: true,
         token: '',
-        tokenType: ''
+        tokenType: '',
+        userId: ''
     }
 }
 
@@ -24,7 +26,8 @@ const authSuccess = (state, action) => {
         error: false,
         loading: false,
         token: action.token,
-        tokenType: action.tokenType
+        tokenType: action.tokenType,
+        userId: action.userId
     }
 }
 
@@ -34,7 +37,8 @@ const authFail = (state, action) => {
         error: true,
         loading: false,
         token: '',
-        tokenType: ''
+        tokenType: '',
+        userId: ''
     }
 }
 
@@ -44,7 +48,8 @@ const authLogout = (state, action) => {
         error: false,
         loading: false,
         token: '',
-        tokenType: ''
+        tokenType: '',
+        userId: ''
     }
 }
 
