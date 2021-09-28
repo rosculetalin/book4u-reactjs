@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../../store/actions/index.js';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
+import ImageWithAuth from '../image/ImageWithAuth.js';
 
 const Profile = props => {
 
@@ -100,7 +101,8 @@ const Profile = props => {
         <div className="container-fluid" style={{ padding: '10px'}}>
             <div className="row" style={{padding: '5px'}}>
                 <div className="col-sm-4">
-                    <Image src={props.imageUrl} roundedCircle width="150px" height="150px" alt="Image Profile"/>
+                    {/* <Image src={props.imageUrl} roundedCircle width="150px" height="150px" alt="Image Profile"/> */}
+                    <ImageWithAuth/>
                 </div>
                 <div className="col-sm-8">
                     {profileDetails}
